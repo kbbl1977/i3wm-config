@@ -1016,7 +1016,7 @@ bindsym --release button2 kill
 # Settings of ArchLabs will be applied
 #exec --no-startup-id setxkbmap be
 #exec --no-startup-id setxkbmap us
-exec --no-startup-id setxkbmap  -layout 'us' -option 'grp:caps_toggle'
+exec --no-startup-id setxkbmap  -layout 'us,cz' -variant ',qwerty' -option 'grp:caps_toggle'
 exec --no-startup-id xset r rate 160 65
 
 #####################################################################################################################
@@ -1033,4 +1033,12 @@ exec --no-startup-id xset r rate 160 65
 #exec --no-startup-id export SSH_AUTH_SOCK
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
 exec --no-startup-id pydio-sync
+exec --no-startup-id /usr/bin/riot-desktop
+exec --no-startup-id /usr/bin/sonata
+exec --no-startup-id /usr/bin/dunst
+exec --no-startup-id redshift-gtk -l 50:15 -t 5500:4200
 
+# Sonata control
+bindsym Control+$mod+v exec --no-startup-id /usr/bin/sonata -t
+bindsym Control+$mod+b exec --no-startup-id /usr/bin/sonata pp
+bindsym Control+$mod+n exec --no-startup-id /usr/bin/sonata next
