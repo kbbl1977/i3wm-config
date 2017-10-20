@@ -270,7 +270,7 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 # qwerty/azerty issue for letter z
-#bindsym $mod+s layout stacking
+bindsym $mod+t layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
@@ -436,7 +436,7 @@ exec_always --no-startup-id numlockx on
 exec --no-startup-id volumeicon
 
 #variety
-exec --no-startup-id variety
+#exec --no-startup-id variety
 
 # clipit
 exec --no-startup-id parcellite
@@ -563,6 +563,7 @@ bindsym Control+Shift+Print exec --no-startup-id gnome-screenshot -i
 #floating enabled from some programs - find with xprop
 
 for_window [class="Bleachbit"] floating disable
+for_window [class="Psi+"] floating enable
 for_window [class="Blueberry.py"] floating enable
 for_window [class="Brasero"] floating disable
 for_window [class="Galculator"] floating enable
@@ -585,6 +586,8 @@ for_window [class="Xfburn"] floating disable
 for_window [class="Xfce4-appfinder"] floating enable
 for_window [class="Xfce4-settings-manager"] floating disable
 for_window [class="Xfce4-taskmanager"] floating enable
+
+for_window [class="Sonata"] floating enable
 
 
 for_window [instance="gimp"] floating disable
@@ -701,9 +704,9 @@ bindsym $mod+shift+b exec --no-startup-id i3-msg border toggle
 
 #changing border style
 #super+t in archlabs is starting terminal
-bindsym $mod+t border normal
-bindsym $mod+y border 1pixel
-bindsym $mod+u border none
+#bindsym $mod+t border normal
+#bindsym $mod+y border 1pixel
+#bindsym $mod+u border none
 
 
 #new_window pixel 1
@@ -818,6 +821,7 @@ bar {
     font pango:Noto Sans 10
     #you can know the name via xrandr
     #output DVI-0
+
 
 # OPTION 1 : i3status
 
