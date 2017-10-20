@@ -345,17 +345,17 @@ font pango:Noto Mono Regular 13
 # you can find the class with the program xprop
 
 # Workspace 2 browser related
-assign [class="Firefox|Vivaldi-stable|Vivaldi-snapshot|Opera"]                      → 2
+#assign [class="Firefox|Vivaldi-stable|Vivaldi-snapshot|Opera"]                      → 2
 
 # Workspace 2 text editor related
 assign [class="sublime-text|sublime_text|Sublime_text|subl|Subl|subl3|Subl3"]       → 4
 assign [class="Xed|xed|Brackets|Atom|Code|Geany"]                                   → 4
 
 # Workspace 3 terminal
-assign [class="Termite|Terminator"]                                                 → 3
+#assign [class="Termite|Terminator"]                                                 → 3
 
 # Workspace 5 Images and meld
-assign [class="ristretto|Ristretto|shotwell|Shotwell|Xviewer|Nitrogen"]             → 5
+#assign [class="ristretto|Ristretto|shotwell|Shotwell|Xviewer|Nitrogen"]             → 5
 assign [class="feh|gthumb|Gthumb|eog|Eog|Pinta|pixeluvo|Pixeluvo"]                  → 5
 assign [class="Meld"]                                                               → 5
 
@@ -363,18 +363,18 @@ assign [class="Meld"]                                                           
 assign [class="Vlc|vlc"]                                                            → 6
 
 # Workspace 7 virtual machines and settings
-assign [class="Vmplayer|VirtualBox"]						    → 6
+#assign [class="Vmplayer|VirtualBox"]						    → 6
 
 # Workspace 8 file managers
 assign [class="Nemo|Thunar|Caja|nautilus|Nautilus"]                                 → 6
 
 # Workspace 1 email clients
-assign [class="Geary|Evolution"]                                                    → 1
+#assign [class="Geary|Evolution"]                                                    → 1
 
 # Workspace 7 music related
 assign [class="Spotify|spotify"]                                                    → 7
 #fix for spotify not moving to workspace 10
-for_window [class="Spotify"] move to workspace 7
+#for_window [class="Spotify"] move to workspace 7
 
 
 
