@@ -784,30 +784,25 @@ status_command i3blocks -c ~/.config/i3/i3blocks.conf
 
 #status_command ~/.config/i3/start-conky-i3statusbar.sh
 
-
-colors {
-        background #2F2F2F
-        statusline #eeeeee
-        separator  #666666
-        #                     border  backgr. text
-        focused_workspace     #a9a9a9 #222222 #a9a9a9
-        active_workspace      #a9a9a9 #222222 #a9a9a9
-        inactive_workspace    #a9a9a9 #5f676a #a9a9a9
-        urgent_workspace      #4A4A4A #4A4A4A #a9a9a9
-        }
-
-    }
+#	colors {
+#		background      #fdf6e3
+#		statusline      #839496
+#		focused_workspace       #cb4b1g #fdf6e3 #839496
+#		active_workspace      	#cb4b1g #fdf6e3 #839496
+#		inactive_workspace      #859900 #fdf6e3 #839496
+#		urgent_workspace        #2aa198 #d33682 #dc322f
+#	}
 
 
 # DarkGrey background with white text - not focus grey background - black text
 # Windows decoration colors
 # class                 border  backgr. text    indicator
-client.placeholder      #242424 #242424 #242424
-client.background       #242424 #242424 #242424
-client.focused          #4A4A4A #4A4A4A #e5e5e5 #4A4A4A
-client.unfocused        #222222 #222222 #aaaaaa #222222
-client.focused_inactive #222222 #222222 #a9a9a9 #222222
-client.urgent           #4A4A4A #4A4A4A #f7f7f7 #4A4A4A
+#client.placeholder      #fdf6e3 #fdf6e3 #fdf6e3
+#client.background       #fdf6e3 #fdf6e3 #fdf6e3
+#client.focused		#cb4b16	#fdf6e3	#657b83	#ffffff
+#client.focused_inactive	#586e75	#fdf6e3	#657b83	#ffffff
+#client.unfocused	#586e75	#fdf6e3	#657b83	#ffffff
+#client.urgent		#586e75	#fdf6e3	#657b83	#ffffff
 
 
 #################################################################
@@ -829,23 +824,24 @@ client.urgent           #4A4A4A #4A4A4A #f7f7f7 #4A4A4A
 # https://i3wm.org/docs/userguide.html#_changing_colors
 # client.background color
 # class                   border  backgr. text    indicator
-# client.focused          #4c7899 #285577 #ffffff #2e9ef4
-# client.focused_inactive #333333 #5f676a #ffffff #484e50
-# client.unfocused        #333333 #222222 #888888 #292d2e
-# client.urgent           #2f343a #900000 #ffffff #900000
-# client.placeholder      #000000 #0c0c0c #ffffff #000000
+ client.focused          #4c7899 #285577 #ffffff #2e9ef4
+ client.focused_inactive #333333 #5f676a #ffffff #484e50
+ client.unfocused        #333333 #222222 #888888 #292d2e
+ client.urgent           #2f343a #900000 #ffffff #900000
+ client.placeholder      #000000 #0c0c0c #ffffff #000000
 
-#   colors {
-#            background #222222
-#            statusline #eeeeee
-#            separator #666666
+   colors {
+            background #222222
+            statusline #eeeeee
+            separator #666666
              #                  border  backgr. text
-#            focused_workspace  #4c7899 #285577 #ffffff
-#            active_workspace   #333333 #5f676a #ffffff
-#            inactive_workspace #333333 #222222 #888888
-#            urgent_workspace   #2f343a #900000 #ffffff
-#            }
+            focused_workspace  #4c7899 #285577 #ffffff
+            active_workspace   #333333 #5f676a #ffffff
+            inactive_workspace #333333 #222222 #888888
+            urgent_workspace   #2f343a #900000 #ffffff
+    }
 
+}
 # Alternatives
 # BLue and grey Colors
 # https://github.com/Gravemind/ArchLinux/blob/master/.i3/config
