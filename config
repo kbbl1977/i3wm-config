@@ -668,6 +668,11 @@ bindsym XF86AudioStop exec --no-startup-id playerctl stop
 #bindsym XF86AudioPrev exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
 #bindsym XF86AudioStop exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop"
 
+# Sonata control
+bindsym Control+$mod+v exec --no-startup-id /usr/bin/sonata -t
+bindsym Control+$mod+b exec --no-startup-id /usr/bin/sonata pp
+bindsym Control+$mod+n exec --no-startup-id /usr/bin/sonata next
+
 
 #####################################################################################################################
 #################                          xbacklight                                               #################
@@ -1038,7 +1043,3 @@ exec --no-startup-id /usr/bin/sonata
 exec --no-startup-id /usr/bin/dunst
 exec --no-startup-id redshift-gtk -l 50:15 -t 5500:4200
 
-# Sonata control
-bindsym Control+$mod+v exec --no-startup-id /usr/bin/sonata -t
-bindsym Control+$mod+b exec --no-startup-id /usr/bin/sonata pp
-bindsym Control+$mod+n exec --no-startup-id /usr/bin/sonata next
