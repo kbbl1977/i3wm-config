@@ -547,10 +547,13 @@ bindsym $mod+Shift+Return exec --no-startup-id thunar; workspace 8;focus
 #####################################################################################################################
 
 
-bindsym Print exec --no-startup-id scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
-bindsym Control+Print exec --no-startup-id xfce4-screenshooter
-bindsym Control+Shift+Print exec --no-startup-id gnome-screenshot -i
+#bindsym Print exec --no-startup-id scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
+#bindsym Control+Print exec --no-startup-id xfce4-screenshooter
+#bindsym Control+Shift+Print exec --no-startup-id gnome-screenshot -i
 #bindsym shift+Print exec --no-startup-id shutter
+
+bindsym $mod+Print exec --no-startup-id /usr/bin/xfce4-screenshooter -f
+bindsym Control+$mod+Print exec --no-startup-id /usr/bin/xfce4-screenshooter -w
 
 
 
@@ -673,6 +676,7 @@ bindsym XF86AudioStop exec --no-startup-id playerctl stop
 bindsym Control+$mod+v exec --no-startup-id /usr/bin/sonata -t
 bindsym Control+$mod+b exec --no-startup-id /usr/bin/sonata pp
 bindsym Control+$mod+n exec --no-startup-id /usr/bin/sonata next
+
 
 
 #####################################################################################################################
