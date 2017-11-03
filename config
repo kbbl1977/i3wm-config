@@ -719,9 +719,9 @@ bindsym $mod+shift+b exec --no-startup-id i3-msg border toggle
 #bindsym $mod+u border none
 
 
-#new_window pixel 1
+new_window pixel 1
 #new_window normal
-new_window none
+#new_window none
 
 #new_float pixel 1
 new_float normal
