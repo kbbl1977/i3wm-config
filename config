@@ -498,8 +498,9 @@ bindsym $mod+Return exec --no-startup-id terminator;focus
 #bindsym $mod+F1 exec --no-startup-id exo-open --launch webbrowser;workspace 1;focus
 #qwerty/azerty conflict with w
 #bindsym $mod+w exec --no-startup-id exo-open --launch webbrowser;workspace 1;focus
-#bindsym control+mod1+f exec --no-startup-id firefox;workspace 1; focus
-#bindsym control+mod1+v exec --no-startup-id vivaldi-snapshot;workspace 1; focus
+bindsym control+mod1+t exec --no-startup-id thunderbird -P default -new-instance
+bindsym control+mod1+f exec --no-startup-id firefox
+bindsym control+mod1+i exec --no-startup-id vivaldi-snapshot
 #bindsym control+mod1+g exec --no-startup-id chromium;workspace 1;focus
 
 #workspace 2 related
@@ -535,8 +536,8 @@ bindsym $mod+Shift+Return exec --no-startup-id thunar; workspace 8;focus
 #bindsym control+mod1+e exec --no-startup-id geary;workspace 9;focus
 
 #workspace 10 related
-bindsym $mod+F10 exec --no-startup-id spotify;workspace 10;focus
-bindsym control+mod1+s exec --no-startup-id spotify;workspace 10;focus
+#bindsym $mod+F10 exec --no-startup-id spotify;workspace 7;focus
+#bindsym control+mod1+s exec --no-startup-id spotify;workspace 10;focus
 
 
 
