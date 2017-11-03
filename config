@@ -860,6 +860,9 @@ exec --no-startup-id xset r rate 160 65
 # get the mouse out of the way with unclutter
 #exec --no-startup-id unclutter
 
+#-- wallpaper
+exec --no-startup-id feh --bg-scale /home/tnovosad/Pictures/wallpapers/wallpaper_little_kings_story_1920x1080.jpg
+
 # start some agents
 #exec --no-startup-id eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
 #exec --no-startup-id export SSH_AUTH_SOCK
