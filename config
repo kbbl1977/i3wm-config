@@ -356,8 +356,8 @@ assign [class="Xed|xed|Brackets|Atom|Code|Geany"]                               
 
 # Workspace 5 Images and meld
 #assign [class="ristretto|Ristretto|shotwell|Shotwell|Xviewer|Nitrogen"]             → 5
-assign [class="feh|gthumb|Gthumb|eog|Eog|Pinta|pixeluvo|Pixeluvo"]                  → 5
-assign [class="Meld"]                                                               → 5
+#assign [class="feh|gthumb|Gthumb|eog|Eog|Pinta|pixeluvo|Pixeluvo"]                  → 5
+#assign [class="Meld"]                                                               → 5
 
 # Workspace 6 all video related software
 assign [class="Vlc|vlc"]                                                            → 6
