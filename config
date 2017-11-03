@@ -742,7 +742,7 @@ popup_during_fullscreen smart
 # tango dark
 set $darkblue           #204A87
 set $darkbrown          #8F5902
-set $darkgreen          #4E9A06
+set $darkgreen          #1B8518
 set $darkmagenta        #5C3566
 set $darkred            #A40000
 set $darkyellow         #C4A000
@@ -793,12 +793,12 @@ bar {
 
     colors {
         # tango jungle <workclass> <border> <backg> <text>
-        focused_workspace   $green $darkgreen $white
+        focused_workspace   $grey $darkgreen $white
         active_workspace    $brown $darkbrown $grey
         inactive_workspace  $black $darkblack $grey
         urgent_workspace    $yellow $darkyellow $white
-        background #222222
-        separator  $lightgreen
+        background #282828
+        separator  $lightbrown
         statusline $grey
     }
 }
