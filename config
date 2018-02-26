@@ -882,4 +882,6 @@ exec --no-startup-id /usr/bin/riot-desktop
 exec --no-startup-id /usr/bin/sonata
 exec --no-startup-id /usr/bin/dunst
 exec --no-startup-id redshift-gtk -l 50:15 -t 5500:4200
+#-- disable touchPad mouse control - tsi only cased troubles for me
+exec --no-startup-id /usr/bin/synclient TouchpadOff=1
 
