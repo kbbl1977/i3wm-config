@@ -788,11 +788,13 @@ client.background       #ffffff
 bar {
     # height 25
     workspace_buttons yes
-    font pango:DejaVu Sans, Icons 9
+    font pango:Inconsolata 11
+    #font pango:Source Sans Pro-10 10
     #you can know the name via xrandr
     #output DVI-0
 
-    status_command i3blocks -c ~/.config/i3/i3blocks.conf
+    #status_command i3blocks -c ~/.config/i3/i3blocks.conf
+    status_command i3blocks -c ~/.config/i3/i3blocks-ssc.conf
     # You can also replace the istatus bar with a conky
     # start-conky-i3statusbar.sh is started and conky will follow
     # documentation : https://i3wm.org/docs/user-contributed/conky-i3bar.html
