@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import os,re,sys,subprocess,time
 
-iface='bond0'
+iface='enp0s25'
 
 try:
     iface_oper=open('/sys/class/net/'+iface+'/operstate','r')
